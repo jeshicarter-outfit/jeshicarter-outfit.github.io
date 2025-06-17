@@ -1,0 +1,127 @@
+<!DOCKTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" initial-scale="1.0">  
+        <title>order services </title>
+        <style>
+body{
+    background-color: rgb(10, 138, 138);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 15px;
+    border-color: black;
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.order-label{
+    margin-bottom: 1%;
+    font-weight: bold;
+}
+.order{
+    width: 50%;
+    margin:0 auto ;
+}
+div img{
+    width: 58px;
+    height: 58px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+header{
+    background-color: black;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    color: aliceblue;
+}
+nav ul{
+                list-style: none;
+                padding: 0%;
+            }
+            nav ul{
+                display: inline;
+                margin: 10px;
+            }
+            nav ul li{
+            display: inline;
+            margin: 10px;
+            }
+            nav ul li a{
+                color: rgb(245,158,158);
+                text-decoration: none;
+            }
+footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+    margin-top: 8px;
+}
+.btn-primary{
+    background-color: #e2502b;
+    color: whitesmoke;
+    border-radius: 5px;
+
+}
+        </style>
+    </head>
+    <body>
+    <!--header section-->
+        <header>
+            <nav>
+        <ul>
+            <li><a href="jeshi.html" ></a>home</li>
+            <li><a href="service.html">service</a></li>
+            <li><a href="developers.html">about us</a></li>
+            <li><a href="order.html">order now</a></li>
+        </ul>
+    </nav>
+            <h1>JESHICARTER OUTFIT</h1>
+        </header>
+        <!--search section start here-->
+        <section class="clothes search">
+            <div class="container">
+                <h2 class="text-center text-white">fill this form to confirm your order.</h2>
+                <form action="#" class="order">
+                    <fieldset>
+                        <legend>select clothes</legend>
+                        <div class="services-img">
+                            <img src="images/20250529_135600.jpg" alt="jean-black">
+                        </div>
+                        <div class="service-desc">
+                            <h3>clothes title</h3>
+                            <p class="clothes-price">Tsh18,000/=</p>
+                            <div class="order-label">quantity</div>
+                            <input type="number" name="qty" class="input-responsive" value="1" required>                       
+                         </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>derivery details</legend>
+                        <div class="order-label">full name</div>
+                        <input type="text" name="text" placeholder="Eg.jeshi carter" class="input-responsive" required>
+                        <div class="order-label">phone number</div>
+                        <input type="number" name="number" placeholder="Eg.+2557xxxxxxxx" class="input-responsive" required>
+                          <div class="order-label">Email</div>
+                          <input type="email" name="email" placeholder="Eg.silentbattle47@gmail.com" class="input-responsive" required>
+                           <div class="order-label">address</div>
+                          <input type="adress" rows="5" placeholder="Eg.street,City" class="input-responsive" required><br><br>
+                          <input type="submit" name="submit" value="confirm order" class="btn btn-primary"
+                        </fieldset>
+                </form>
+             </div>
+        </section>
+<!--footer-->
+<footer>
+    <p>&copy;2025 JESHICARTER OUTFIT | All Rights Reserved</p>
+</footer>
+    </body> 
+</html>
+    </body>
